@@ -10,8 +10,7 @@ import os
 import pickle
 import numpy as np
 from PIL import Image
-"backend: TkAgg" >> ~/.matplotlib/matplotlibrc
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 st.write("图片可视化：")
 st.write("每个类别随机选取10个样本，按列排列，每一列代表一个类")
