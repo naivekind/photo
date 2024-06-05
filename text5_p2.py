@@ -4,6 +4,7 @@
 # model3=load('modek3.joblib')
 # model4=load('dataset.joblib')
 
+echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 import streamlit as st
 import random
 import os
