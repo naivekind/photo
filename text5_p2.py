@@ -4,13 +4,13 @@
 # model3=load('modek3.joblib')
 # model4=load('dataset.joblib')
 
-echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 import streamlit as st
 import random
 import os
 import pickle
 import numpy as np
 from PIL import Image
+echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 import matplotlib.pyplot as plt
 
 st.write("图片可视化：")
