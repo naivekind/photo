@@ -10,7 +10,7 @@ import os
 import pickle
 import numpy as np
 from PIL import Image
-echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
+"backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 import matplotlib.pyplot as plt
 
 st.write("图片可视化：")
